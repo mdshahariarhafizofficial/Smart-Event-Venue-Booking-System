@@ -1,12 +1,11 @@
-import './App.css'
+import React from "react";
+import { Button } from "./components/ui/button"; // relative path ঠিক করো
+import "./index.css";
 
-function App() {
-
+export default function App() {
   return (
-    <>
-      <h1>Welcome Programmers</h1>
-    </>
-  )
+    <div className="flex items-center justify-center h-screen bg-gray-100">
+      <Button>Test Shadcn Button</Button>
+    </div>
+  );
 }
-
-export default App
